@@ -3,7 +3,7 @@
   text-align: center;
   width: 70vw;
   margin: 0 auto;
-  margin-top: 3vw;
+  /* margin-top: 2vw; */
   justify-content: center;
   align-items: center;
   z-index: 3;
@@ -11,8 +11,8 @@
 }
 
 #secDiferenciais h1 {
-  font-size: 1.7vw;
-  line-height: 1.7vw;
+  font-size: 1.9vw;
+  line-height: 1.9vw;
   z-index: 6;
 }
 #boxesDiferenciais {
@@ -24,7 +24,7 @@
 .boxDiferencial {
     border-radius: 1vw;
   width: 20vw;
-  border: 2px solid #5397A6;
+  border: 1px solid #5397A6;
 }
 .h3BoxDiferenciais {
   font-size: 0.9vw;
