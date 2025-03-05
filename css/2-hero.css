@@ -15,7 +15,7 @@
 }
 #hero1 {
   /* border: 1px solid red; */
-  height: 30vw;
+  height: 32vw;
   width: 33vw;
   z-index: 1;
 }
@@ -58,7 +58,7 @@
 }
 
 #hero2 {
-  height: 39vw;
+  height: 33vw;
   /* width: 30vw; */
   /* border: 1px solid red; */
   z-index: 1;
