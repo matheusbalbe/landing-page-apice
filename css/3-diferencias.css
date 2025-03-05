@@ -1,0 +1,45 @@
+#secDiferenciais {
+  /* display: flex; */
+  text-align: center;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 3vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  /* border: 1px solid red; */
+}
+
+#secDiferenciais h1 {
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  z-index: 6;
+}
+#boxesDiferenciais {
+  margin-top: 4vw;
+  display: flex;
+  gap: 1vw;
+}
+
+.boxDiferencial {
+    border-radius: 1vw;
+  width: 20vw;
+  border: 2px solid #5397A6;
+}
+.h3BoxDiferenciais {
+  font-size: 0.9vw;
+  margin-top: -2vw;
+}
+.pBoxDiferenciais {
+  margin: 2vw;
+  margin-top: 1vw;
+  font-size: 0.7vw;
+}
+
+.imgBoxDiferencial {
+    width: 5vw;
+    height: 5vw;
+    /* border-radius: 1vw; */
+    position: relative;
+    top: -2vw; /* Adjust this value to move the image further up or down */
+}

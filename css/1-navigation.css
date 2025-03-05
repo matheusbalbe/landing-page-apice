@@ -53,13 +53,14 @@ nav ul {
   margin-right: 7px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  padding: 1.7vh 1.4vw;
+  padding: 1.63vh 1.5vw;
   cursor: pointer;
   border-radius: 8px;
 }
 
 .btnMarcarAula {
   font-size: 0.7vw;
+  /* border: 1px solid #088c29; */
   font-family: Inter, sans-serif;
   font-weight: 700;
   background-color: #088c29;
