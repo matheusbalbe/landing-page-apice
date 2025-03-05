@@ -1,0 +1,80 @@
+/* Hero */
+.container {
+  display: flex;
+  margin-top: 5vh;
+  /* width: 70vw; */
+}
+
+.hero-content {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  margin: 0 auto;
+}
+#hero1 {
+  /* border: 1px solid red; */
+  height: 69vh;
+  width: 33vw;
+  z-index: 1;
+}
+#hero1 h1 {
+  font-size: 1.5vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.5vw;
+  text-align: left;
+  font-weight: 600;
+}
+
+#hero1 h4 {
+  font-size: 0.8vw;
+  text-align: left;
+  font-weight: 400;
+}
+
+#imgMatriculasAbertas {
+  width: 32vw;
+}
+#hero1TextEBtn {
+  margin-left: 4vw;
+}
+
+#hero1Alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1vw;
+  width: 18vw;
+  border-radius: 6px;
+  margin-top: 5vh;
+  background-color: rgba(248, 133, 133, 0.2);
+}
+
+#hero1Alert p {
+  font-size: 0.6vw;
+  font-weight: 400;
+  color: #000000;
+}
+
+#hero2 {
+  height: 69vh;
+  /* width: 30vw; */
+  /* border: 1px solid red; */
+  z-index: 1;
+}
+#imgMenina {
+  width: 30vw;
+  /* border: 1px solid red; */
+}
+
+#blurBackground {
+  top: 40vh;
+  justify-content: center;
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  z-index: 0;
+}
