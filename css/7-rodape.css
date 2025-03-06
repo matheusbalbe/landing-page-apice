@@ -1,13 +1,44 @@
 footer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     background-color: black;
     color: white;
 }
 
 footer a {
     text-decoration: none;
+}
+
+#footerTextos a {
+    text-decoration: underline;
+    color: white;
+}
+#footerTextos p {
+    font-size: .8vw
+}
+
+hr {
+    width: 70vw;
+    margin: 0;
+    border: 1px solid white;
+}
+#footerRedesSociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+    gap: 1.5vw;
+    
+    /* border: 2px solid red; */
+}
+#footerRedesSociais a {
+    font-weight: 700;
+    font-size: 1.1vw;
+    color: white;
+    margin: 0 1vw;
 }
