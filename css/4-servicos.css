@@ -1,0 +1,80 @@
+#secServicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+#secServicos h1 {
+    font-size: 1.9vw;
+    line-height: 1.9vw;
+    text-align: center;
+    letter-spacing: 0vw;
+    margin-bottom: 2vw;
+    /* margin: 1vw 0; */
+}
+
+.boxesServicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1vw; */
+    margin: 0 auto;    /* margin: 2vw 8vw; */
+}
+
+.boxServico {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vw 4vw;
+    border-radius: 1vw;
+    margin-top: 2vw;
+    width: 53vw;
+}
+
+.boxServicoTextos {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: left;
+    /* border: 1px solid red; */
+    margin-right: 3vw;
+    height: 22vw;
+    gap: 10px;
+}
+.imgBoxServico {
+    width: 30vw;
+    /* height: 25vw; */
+    /* border-radius: 1vw; */
+    /* position: relative; */
+    /* top: -2vw; */
+}
+
+.h3BoxServico {
+    color: var(--dark-green);
+    /* font-size: 1.5vw;
+    margin-top: -2vw; */
+}
+
+.divPrimeiroTituloBoxServicos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: .5vw;
+    border-bottom-left-radius: .5vw;
+    width: 12vw;
+    height: 2vw;
+    /* padding: .1rem 0; */
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.h2SegundoTituloBoxServicos {
+    font-weight: 500;
+}

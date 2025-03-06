@@ -1,3 +1,7 @@
+:root {
+  --dark-green: #088C29;
+}
+
 header {
   margin: 0;
   font-family: Inter, sans-serif;

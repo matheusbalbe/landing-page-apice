@@ -16,15 +16,19 @@
   z-index: 6;
 }
 #boxesDiferenciais {
+  justify-content: center;
+  align-items: CENTER;
   margin-top: 4vw;
   display: flex;
   gap: 1vw;
   margin-bottom: 2vw;
+    /* border: 1px solid red; */
 }
 
 .boxDiferencial {
+
     border-radius: 1vw;
-  width: 20vw;
+  width: 17vw;
   border: 1px solid #5397A6;
 }
 .h3BoxDiferenciais {
