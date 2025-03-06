@@ -1,6 +1,7 @@
 #secMensagem {
     display: FLEX;
     justify-content: CENTER;
+    flex-direction: column;
     align-items: CENTER;
     text-align: CENTER;
     margin-top: 10vw;
@@ -10,7 +11,22 @@
 
 #secMensagem h1 {
     
-    font-size: 2VW;
+    font-size: 2.4VW;
     color: white;
     font-weight: 500;
+}
+#secMensagem h2 { 
+    font-size: 1.1vw;
+    color: white;
+    font-weight: 400;
+}
+.btnsSecMensagem {
+    display: FLEX;
+    gap: 1vw;
+    margin-top: 2vw;
+}
+
+.btnSecMensagem {
+background-color: black;
+color: white;
 }
