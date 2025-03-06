@@ -14,7 +14,7 @@
     line-height: 1.9vw;
     text-align: center;
     letter-spacing: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
     /* margin: 1vw 0; */
 }
 
@@ -34,8 +34,9 @@
     gap: 2vw;
     padding: 2vw 4vw;
     border-radius: 1vw;
-    margin-top: 2vw;
+    margin-bottom: 2vw;
     width: 53vw;
+    
 }
 
 .boxServicoTextos {
@@ -44,7 +45,7 @@
     text-align: left;
     /* border: 1px solid red; */
     margin-right: 3vw;
-    height: 22vw;
+    height: 21vw;
     gap: 10px;
 }
 .imgBoxServico {
@@ -55,11 +56,7 @@
     /* top: -2vw; */
 }
 
-.h3BoxServico {
-    color: var(--dark-green);
-    /* font-size: 1.5vw;
-    margin-top: -2vw; */
-}
+
 
 .divPrimeiroTituloBoxServicos {
     display: flex;
@@ -69,12 +66,51 @@
     border-top-right-radius: .5vw;
     border-bottom-left-radius: .5vw;
     width: 12vw;
-    height: 2vw;
+    height: 2.3vw;
     /* padding: .1rem 0; */
     background-color: var(--dark-green);
     color: white;
 }
 
+.h2PrimeiroTituloBoxServicos {
+    font-size: 1.2vw;
+}
 .h2SegundoTituloBoxServicos {
     font-weight: 500;
+    font-size: 1.2vw;
+}
+.h3BoxServico {
+    color: var(--dark-green);
+    font-size: .9vw;
+    margin-top: 1.3vw;
+}
+.pBoxServico {
+    font-size: .8vw;
+    /* margin: 2vw; */
+    /* margin-top: 1vw; */
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.boxAzul {
+    background-color: var(--blue);
+}
+#h2BoxAzul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: .5vw;
+    border-bottom-left-radius: .5vw;
+    width: 14vw;
+    height: 2.3vw;
+    background-color: var(--blue);
+    color: white;
+    font-size: 1.2vw;
+
+}
+#boxServicoTextosAzul {
+    margin-left: 2.5vw;
 }

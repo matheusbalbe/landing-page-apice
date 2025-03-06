@@ -1,0 +1,16 @@
+#secMensagem {
+    display: FLEX;
+    justify-content: CENTER;
+    align-items: CENTER;
+    text-align: CENTER;
+    margin-top: 10vw;
+    height: 60vh;
+    background-color: black;
+}
+
+#secMensagem h1 {
+    
+    font-size: 2VW;
+    color: white;
+    font-weight: 500;
+}

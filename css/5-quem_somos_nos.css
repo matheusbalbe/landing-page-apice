@@ -1,0 +1,38 @@
+#secQuemSomosNos {
+   display: flex;
+   width: 80vw;
+   margin: 0 auto;
+   justify-content: center;
+   margin-top: 5vw;
+}
+
+#imgQuemSomosNos {
+    /* border: 1px solid red; */
+    height: 28vw;
+}
+#imgBlurBoxQuemSomosNos{
+    /* border: 1px solid red; */
+    width: 70vw;
+    height: 60vw;
+    position: absolute;
+    z-index: -1;
+    /* filter: blur(5px); */
+}
+#quemSomosNosTextos {
+    /* border: 1px solid red; */
+    width: 27vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+.h1BoxQuemSomosNos {
+    font-size:1.7vw;
+}
+.pBoxQuemSomosNos {
+    align-items: left;
+    font-size: 1.1vw;
+    /* margin: 2vw; */
+    margin-top: 1vw;
+}
+.h2BoxQuemSomosNos {
+    font-size: 1.1vw;
+}
