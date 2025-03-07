@@ -35,6 +35,9 @@
 #imgMatriculasAbertas {
   width: 32vw;
 }
+.hero1Mobile {
+  display: none;
+}
 #hero1TextEBtn {
   text-align: left;
   margin-left: 4vw;
@@ -78,3 +81,4 @@
   /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: -1;
 }
+

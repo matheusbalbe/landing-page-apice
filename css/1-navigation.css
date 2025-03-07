@@ -75,3 +75,10 @@ nav ul {
   cursor: pointer;
   border-radius: 8px;
 }
+
+/* Ícone do menu (hambúrguer) */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #F3EDF7;
+        width: 200px;
+        text-align: right;
+        padding: 8px;
+        border-radius: 5px;
+        z-index: 5;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10vw;
+    }
+    .hero-content {
+        display: flex;
+        /* flex-direction: column; */
+        width: 80vw;
+        margin-bottom: 30vw;
+        /* height: 50vw; */
+    }
+    #hero1 {
+        display: flex;
+        width: 53vw;
+    }
+    #hero1 h4 {
+        font-size: 3vw;
+    }
+    .hero1Mobile {
+        display: flex;
+    }
+    #imgMatriculasAbertasMobile {
+        display: flex;
+        width: 90vw;
+        /* height: 70vw; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    .h1title {
+        font-size: 5vw;
+        letter-spacing: 0.1vw;
+        line-height: 5vw;
+        font-weight: 600;
+    }
+    #imgMenina {
+        height: 53vw;
+    }
+    .mobile {
+        display: none;
+    }
+    .btnMarcarAula {
+        padding: 2vw;
+          /* color: white; */
+          font-size: 2vw;
+        }
+}

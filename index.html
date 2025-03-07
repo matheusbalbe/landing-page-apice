@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/5-quem_somos_nos.css" />
     <link rel="stylesheet" href="css/6-mensagem.css" />
     <link rel="stylesheet" href="css/7-rodape.css" />
+    <link rel="stylesheet" href="css/8-design-mobile.css" />
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,17 +25,26 @@
   <header>
     <nav>
       <img class="logo" src="assets/0 - Identidade visual/logo-apice.png" alt="Logo" />
-      <ul>
-        <li><a class="titleNavBar" href="#secServicos">Serviços</a></li>
-        <li><a class="titleNavBar" href="#secDiferenciais">Diferenciais</a></li>
-        <li><a class="titleNavBar" href="#secQuemSomosNos">Sobre o Ápice</a></li>
-        <li><a class="titleNavBar" href="#">Contato</a></li>
+      
+      <!-- Ícone do Menu -->
+      <div class="menu-toggle" onclick="toggleMenu()">
+          ☰
+      </div>
+
+      <!-- Links do Menu -->
+      <ul class="nav-links">
+          <li><a class="titleNavBar" href="#secServicos">Serviços</a></li>
+          <li><a class="titleNavBar" href="#secDiferenciais">Diferenciais</a></li>
+          <li><a class="titleNavBar" href="#secQuemSomosNos">Sobre o Ápice</a></li>
+          <li><a class="titleNavBar" href="https://wa.me/553184662873">Contato</a></li>
       </ul>
-      <span>
-        <button class="btnContato">Entre em contato</button>
-        <button class="btnMarcarAula">Marcar aula gratuita</button>
+
+      <!-- Botões -->
+      <span class="nav-buttons">
+          <a href="https://wa.me/553184662873"><button class="btnContato">Entre em contato</button></a>
+          <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Marcar aula gratuita</button></a>
       </span>
-    </nav>
+  </nav>
   </header>
   <body>
     <img
@@ -44,13 +54,23 @@
   />
     <section id="secHero">
       <div id="hero" class="container">
+        <div class="hero1Mobile"> <img
+          id="imgMatriculasAbertasMobile" 
+          src="assets/1 - Hero/Matrículas abertas (c texto).svg"
+          alt=""
+        />
+      </div>
         <div class="hero-content">
+          
+
           <div id="hero1">
+            
             <img
-              id="imgMatriculasAbertas"
+              id="imgMatriculasAbertas" class="mobile"
               src="assets/1 - Hero/Matrículas abertas (c texto).svg"
               alt=""
             />
+            
             <div id="hero1TextEBtn">
               <h1 class="h1title">
                 OS MELHORES <br />PROFESSORES VOCÊ<br />
@@ -60,8 +80,8 @@
                 Te ajudando, desde 2005, a atingir o ápice<br />
                 nos estudos!
               </h4>
-              <button class="btnContato">Entre em contato</button>
-              <button class="btnMarcarAula">Marcar aula gratuita</button>
+              <a href="https://wa.me/553184662873"><button class="btnContato mobile">Entre em contato</button></a>
+              <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Marcar aula gratuita</button></a>
               <div id="hero1Alert">
                 <img src="assets/1 - Hero/icone-aviso.svg" alt="" />
                 <p>*ATÉ 01/05 OU ENQUANTO AINDA RESTAREM VAGAS</p>
@@ -110,7 +130,7 @@
         </p>
       </div>
     </div>
-    <button class="btnMarcarAula">Marcar aula gratuita</button>
+    <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Marcar aula gratuita</button></a>
     </section>
 
     <section id="secServicos">
@@ -130,7 +150,7 @@
           <p class="pBoxServico">
             Escolha os horários e disciplinas que melhor atendem às suas necessidades e/ou necessidades dos seus filhos.
           </p>
-          <button class="btnMarcarAula">Agende a sua aula particular</button>
+          <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Agende a sua aula particular</button></a>
         </div>
         <img class="imgBoxServico" src="assets/4 - Serviços/img-aula-particular.svg" alt="" />
         </div>
@@ -150,7 +170,7 @@
         <p class="pBoxServico">
           Relatórios detalhados para pais e alunos acompanharem o progresso.
         </p>
-        <button class="btnMarcarAula boxAzul">Conheça nossos cursos de reforço</button>
+        <a href="https://wa.me/553184662873"><button class="btnMarcarAula boxAzul">Conheça nossos cursos de reforço</button></a>
       </div>
       
       </div>
@@ -169,7 +189,7 @@
         <p class="pBoxServico">
           Apostilas e simulados personalizados para cada tipo de exame. 
         </p>
-        <button class="btnMarcarAula">Prepare-se com a Nossa Equipe</button>
+        <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Prepare-se com a Nossa Equipe</button></a>
       </div>
       <img class="imgBoxServico" src="assets/4 - Serviços/img-preparatorios.svg" alt="" />
       </div>
@@ -193,7 +213,7 @@
 
             <p class="pBoxQuemSomosNos">Com anos de experiência em aulas particulares e cursos preparatórios, oferecemos um método único que combina ensino personalizado, materiais de alta qualidade e relatórios detalhados para garantir o sucesso dos nossos alunos.</p>  
            
-              <button class="btnMarcarAula">Marcar aula gratuita</button>
+            <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Marcar aula gratuita</button></a>
             </div>
            
           </div>
@@ -202,8 +222,8 @@
         <h1>A NOVA ERA DA EDUCAÇÃO <br>PERSONALIZADA COMEÇA <br>AQUI</h1> 
         <h2>Descubra uma maneira inovadora de aprender e alcançar seus <br> objetivos acadêmicos.</h2>
         <div class="btnsSecMensagem">
-        <button class="btnContato btnSecMensagem">Entre em contato</button>
-        <button class="btnMarcarAula">Marcar aula gratuita</button>
+          <a href="https://wa.me/553184662873"><button class="btnContato btnSecMensagem">Entre em contato</button></a>
+          <a href="https://wa.me/553184662873"><button class="btnMarcarAula">Marcar aula gratuita</button></a>
       </div>
       </section>
   </body>
@@ -217,11 +237,12 @@
       </div>
       <hr>
       <div id="footerRedesSociais">
-        <a href="https://www.facebook.com" target="_blank">Instagram</a> 
-        <a href="https://www.instagram.com" target="_blank">Linkedin</a> 
-        <a href="https://www.twitter.com" target="_blank">Facebook</a> 
-        <a href="https://www.linkedin.com" target="_blank">Contato</a>
+        <a href="https://www.instagram.com/cursos.apice" target="_blank">Instagram</a> 
+        <a href="https://www.linkedin.com/company/%C3%A1pice-cursos" target="_blank">Linkedin</a> 
+        <a href="https://www.facebook.com/apicecursosjm" target="_blank">Facebook</a> 
+        <a href="https://wa.me/553184662873" target="_blank">Contato</a>
       </div>
       </div>
     </div>
+    <script src="script.js"></script>
 </html>
