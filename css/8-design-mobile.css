@@ -1,80 +1,134 @@
 @media only screen and (max-width: 600px) {
-    .menu-toggle {
-        display: block;
-    }
+  .menu-toggle {
+    display: block;
+  }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: #F3EDF7;
-        width: 200px;
-        text-align: right;
-        padding: 8px;
-        border-radius: 5px;
-        z-index: 5;
-    }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #f3edf7;
+    width: 200px;
+    text-align: right;
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 5;
+  }
 
-    .nav-links.active {
-        display: flex;
-    }
+  .nav-links.active {
+    display: flex;
+  }
 
-    .nav-links li {
-        margin: 10px 0;
-    }
+  .nav-links li {
+    margin: 10px 0;
+  }
 
-    .nav-buttons {
-        display: none;
-    }
-    #hero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 10vw;
-    }
-    .hero-content {
-        display: flex;
-        /* flex-direction: column; */
-        width: 80vw;
-        margin-bottom: 30vw;
-        /* height: 50vw; */
-    }
-    #hero1 {
-        display: flex;
-        width: 53vw;
-    }
-    #hero1 h4 {
-        font-size: 3vw;
-    }
-    .hero1Mobile {
-        display: flex;
-    }
-    #imgMatriculasAbertasMobile {
-        display: flex;
-        width: 90vw;
-        /* height: 70vw; */
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    } 
-    .h1title {
-        font-size: 5vw;
-        letter-spacing: 0.1vw;
-        line-height: 5vw;
-        font-weight: 600;
-    }
-    #imgMenina {
-        height: 53vw;
-    }
-    .mobile {
-        display: none;
-    }
-    .btnMarcarAula {
-        padding: 2vw;
-          /* color: white; */
-          font-size: 2vw;
-        }
+  .nav-buttons {
+    display: none;
+  }
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vw;
+  }
+  .hero-content {
+    display: flex;
+    /* flex-direction: column; */
+    width: 80vw;
+    margin-bottom: 30vw;
+    /* height: 50vw; */
+  }
+  #hero1 {
+    display: flex;
+    width: 50vw;
+    margin-right: 11vw;
+    /* height: 70vh; */
+  }
+  #hero1 h4 {
+    font-size: 2.8vw;
+  }
+  .hero1Mobile {
+    display: flex;
+  }
+  #imgMatriculasAbertasMobile {
+    display: flex;
+    width: 90vw;
+    /* height: 70vw; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vw;
+  }
+  .h1title {
+    font-size: 5vw;
+    letter-spacing: 0.1vw;
+    line-height: 5vw;
+    font-weight: 600;
+  }
+  #imgMenina {
+    height: 53vw;
+    margin-right: -20vw;
+  }
+  .mobile {
+    display: none;
+  }
+  .btnMarcarAula {
+    padding: 2vw;
+    /* color: white; */
+    font-size: 2vw;
+  }
+  #hero1Alert {
+    margin-top: 5vw;
+    width: 60vw;
+  }
+  #hero1Alert p {
+    font-size: 2vw;
+  }
+  #secDiferenciais {
+    width: 90vw;
+  }
+  #secDiferenciais h1 {
+    font-size: 4.5vw;
+    letter-spacing: 0.1vw;
+    line-height: 5vw;
+    font-weight: 600;
+    margin-bottom: 6vw;
+  }
+
+  #boxesDiferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  #boxesDiferenciais > div {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+  .pBoxDiferenciais {
+    font-size: 2.3vw;
+  }
+  .h3BoxDiferenciais {
+    font-size: 3vw;
+    margin: -3.5vw 3vw 0 3vw;
+  }
+  .boxDiferencial {
+    margin-top: 2vw;
+    /* padding-left: 1vw; */
+    width: 70vw;
+    height: 15vh;
+    border: 2px solid #5397A6;
+    border-radius: 10px;
+  }
+  .imgBoxDiferencial {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    top: -4vw;
+  }
 }
