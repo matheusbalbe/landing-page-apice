@@ -6,7 +6,7 @@
     justify-content: center;
     margin: 0 auto;
     align-items: center;
-    margin-top: 3vw;
+    padding-top: 3vw;
 }
 
 #secServicos h1 {
@@ -33,7 +33,7 @@
     align-items: center;
     gap: 2vw;
     padding: 2vw 4vw;
-    border-radius: 1vw;
+    border-radius: 10px;
     margin-bottom: 2vw;
     width: 53vw;
     
@@ -90,14 +90,14 @@
     /* margin-top: 1vw; */
 }
 
-.blue {
+.h3blue{
     color: var(--blue);
 }
 
 .boxAzul {
     background-color: var(--blue);
 }
-#h2BoxAzul {
+.azul {
     display: flex;
     text-align: center;
     justify-content: center;

@@ -2,7 +2,10 @@
   .menu-toggle {
     display: block;
   }
-
+  #container {
+    background: linear-gradient(10deg, #a7c9c9, white);
+    transition: background 0.5s ease;
+  }
   .nav-links {
     display: none;
     flex-direction: column;
@@ -28,6 +31,8 @@
   .nav-buttons {
     display: none;
   }
+  #secHero {
+  }
   #hero {
     display: flex;
     justify-content: center;
@@ -37,16 +42,13 @@
   }
   .hero-content {
     display: flex;
-    /* flex-direction: column; */
     width: 80vw;
     margin-bottom: 30vw;
-    /* height: 50vw; */
   }
   #hero1 {
     display: flex;
     width: 50vw;
     margin-right: 11vw;
-    /* height: 70vh; */
   }
   #hero1 h4 {
     font-size: 2.8vw;
@@ -57,7 +59,6 @@
   #imgMatriculasAbertasMobile {
     display: flex;
     width: 90vw;
-    /* height: 70vw; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -77,9 +78,11 @@
     display: none;
   }
   .btnMarcarAula {
-    padding: 2vw;
-    /* color: white; */
-    font-size: 2vw;
+    border-radius: 8px;
+    padding: 3vw;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-size: 3.7vw;
+    font-weight: 500;
   }
   #hero1Alert {
     margin-top: 5vw;
@@ -103,7 +106,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
   #boxesDiferenciais > div {
@@ -119,16 +121,108 @@
   }
   .boxDiferencial {
     margin-top: 2vw;
-    /* padding-left: 1vw; */
     width: 70vw;
-    height: 15vh;
-    border: 2px solid #5397A6;
+    height: 32vw;
+    border: 2px solid #5397a6;
     border-radius: 10px;
   }
   .imgBoxDiferencial {
     width: 10vw;
     height: 10vw;
     position: relative;
-    top: -4vw;
+    top: -5vw;
   }
+
+  /* Seção de serviços */
+  #secServicos {
+    background: linear-gradient(0deg, white, #a7c9c9);
+    transition: background 0.5s ease;
+  }
+  #secServicos h1 {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .boxServico {
+    width: 69vw;
+    height: 70vw;
+  }
+  .boxServicoTextos {
+    height: 67vw;
+  }
+  .divPrimeiroTituloBoxServicos {
+    width: 45vw;
+    height: 11vw;
+    border-top-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+  }
+  .divPrimeiroTituloBoxServicos .azul {
+    width: 45vw;
+    height: 11vw;
+    border-top-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+  }
+  .h2PrimeiroTituloBoxServicos {
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+  .h2SegundoTituloBoxServicos {
+    font-size: 3.8vw;
+    line-height: 3.5vw;
+  }
+  .h3BoxServico {
+    font-size: 2.8vw;
+    line-height: 3vw;
+  }
+  .pBoxServico {
+    font-size: 2.9vw;
+    line-height: 3vw;
+  }
+  #boxServicoTextosAzul {
+    margin-left: 0;
+  }
+  .btnMobile {
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3vw;
+    width: 100%;
+  }
+
+  /* Seção "Quem Somos Nós */
+  #secQuemSomosNos {
+    width: 100vw;
+  }
+
+  #imgQuemSomosNos {
+    margin-left: 1vw;
+    height: 80vw;
+    width: 40vw;
+  }
+  #quemSomosNosTextos {
+    width: 50vw;
+  }
+  .h2BoxQuemSomosNos {
+    font-size: 2.5vw;
+    line-height: 5vw;
+  }
+  .pBoxQuemSomosNos {
+    font-size: 2.3vw;
+    line-height: 2.3vw;
+  }
+
+    /* Seção "Mensagem" */
+    #secMensagem {
+        margin-top: 0;
+        height: 70vw;
+}
+
+#secMensagem h1 {
+    font-size: 5vw;
+    line-height: 5vw;
+}
+#secMensagem h2 {
+    font-size: 3.5vw;
+    line-height: 4vw;
+    margin: 0 20vw;
+}
 }
