@@ -147,6 +147,7 @@
   .boxServico {
     width: 72vw;
     height: 70vw;
+    margin-bottom: 5vw;
   }
   .boxServicoTextos {
     height: 67vw;
@@ -237,5 +238,30 @@
     font-size: 3vw;
     width: 40vw;
     padding: 1.6vh 1.4vw;
+}
+/* Footer */
+footer {
+    padding-top: 2vw;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+hr {
+    width: 70vw;
+}
+#footerTextos p{
+    font-size: 2.5vw;
+}
+#footerRedesSociais {
+    padding: 2vw 0;
+}
+#footerRedesSociais a {
+    font-size: 2.8vw;
 }
 }
