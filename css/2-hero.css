@@ -2,19 +2,15 @@
 .container {
   display: flex;
   margin-top: 7vh;
-  /* width: 70vw; */
 }
 
 .hero-content {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  /* width: 50%; */
   margin: 0 auto;
 }
 #hero1 {
-  /* border: 1px solid red; */
   height: 32vw;
   width: 33vw;
   z-index: 1;
@@ -62,23 +58,22 @@
 
 #hero2 {
   height: 33vw;
-  /* width: 30vw; */
-  /* border: 1px solid red; */
   z-index: 1;
 }
 #imgMenina {
   height: 30vw;
-  /* border: 1px solid red; */
+
+}
+#imgMeninaMobile {
+display: none;
 }
 
 #blurBackground {
   top: 40vh;
   justify-content: center;
-  /* border: 1px solid red; */
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: -1;
 }
 
